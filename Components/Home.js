@@ -3,13 +3,21 @@ import {View,Text,TouchableOpacity,ScrollView} from 'react-native'
 import SingleProduct from "./sideComponents/SingleProduct";
 const Home =()=>{
     const data=[{
-        name:"xyz",
-        price:"$10"
+        name:"Headphones",
+        price:"10"
     },
     {
-        name:"xy",
-        price:"$13"
+        name:"Speakers",
+        price:"50"
     },
+    {
+        name:"Mobile",
+        price:"100"
+    },
+    {
+        name:"Laptop",
+        price:"200"
+    }
 ]
     return(
         <ScrollView>
@@ -22,8 +30,6 @@ const Home =()=>{
                         
                     })
                 }
-            
-           
         </View>
         </ScrollView>
         
